@@ -1,3 +1,15 @@
+header nav a {
+ color:#444444;
+ margin:20px;
+ display:inline-block;
+ text-transform:uppercase;
+}
+
+header nav a:hover{
+ text-decoration:none;
+ color:black;
+}
+
 #paineis-sobre {
 	margin-top: 20px;
 }
