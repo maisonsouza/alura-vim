@@ -7,8 +7,8 @@
 
 > Aula03 - Aprimorando o rodapé
 
-> Preenchendo a página de depoimentos
+> Aula04 - Preenchendo a página de depoimentos
 
-> Padrão de código
+> Aula05 - Padrão de código
 
-> Testando o projeto numa máquina virtual
+> Aula06 - Testando o projeto numa máquina virtual
