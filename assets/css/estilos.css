@@ -7,7 +7,6 @@ header nav a {
 
 header nav a:hover{
  text-decoration:none;
- color:black;
 }
 
 #paineis-sobre {
@@ -33,7 +32,7 @@ body {
 	width: 80%;
 	border-radius: 5px;
 	position: absolute;
-    margin: 20px;
+	margin: 20px;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
@@ -81,12 +80,15 @@ footer {
 	color: #FFF;
 	padding: 20px;
 	margin-top: 10px;
-    font-size: 12px;
+	font-size: 12px;
+	display:flex;
+	justify-content:space-between;
 }
 
 footer address:last-child {
 	margin-bottom: 0;
 }
+
 
 @media(min-width: 768px) {
 	#paineis-sobre {
@@ -107,4 +109,13 @@ footer address:last-child {
 	}
 }
 
+.panel-group .panel{
+	display: inline-block;
+	margin: 10px;
+}
+
+.panel-group .panel .panel-heading{
+	font-size: 16px;
+	font-weight: 800;
+}
 
